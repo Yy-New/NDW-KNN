@@ -5,11 +5,9 @@ import pandas as pd
 from utils import is_folder_exists
 
 
-method_path = "../../NDWKNN/Results/NRMSE"
+method_path = "../Results/NRMSE"
 method_list = os.listdir(method_path)
 for method in method_list:
-    # if "DW" not in method:
-    #     continue
     file_path = f"{method_path}/{method}"
     file_list = os.listdir(file_path)
     for file in file_list:
@@ -60,5 +58,5 @@ for method in method_list:
                 min_NRMSE.columns = result_list[0].columns
                 file_save_path = f"{save_path}/min_{file}_{PercentMissing}.xlsx"
                 min_NRMSE.to_excel(file_save_path)
-                print(f"{file}: {dist} {PercentMissing} 处理完成.")
+                print(f"{file}: {dist} {PercentMissing}  Processing completed.")
 
