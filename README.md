@@ -13,11 +13,15 @@ Run `python ./ImputeTest/KNNImputeTest.py` to execute KNN and NS-KNN imputation.
 
 ### Step 5:
 Run `python ./EvaluationNRMSE/IDWKNNEvaluation.py` to get the NRMSE of NDW-KNN interpolation data. The results are saved in the Results folder.
+
 Run `python ./EvaluationNRMSE/KNNEvaluation.py` to get the NRMSE of KNN and NS-KNN interpolation data. The results are saved in the Results folder.
+
 Run `python ./EvaluationNRMSE/AverageNRMSE.py` to get the average NRMSE of KNN, NS-KNN, NDW-KNN interpolation data. The results are saved in the AverageResult folder.
 
 Run `python ./EvaluationMAPE/IDWKNNMAPE.py` to get the MAPE of NDW-KNN interpolation data. The results are saved in the Results folder.
+
 Run `python ./EvaluationMAPE/KNNMAPE.py` to get the MAPE of KNN and NS-KNN interpolation data. The results are saved in the Results folder.
+
 Run `python ./EvaluationMAPE/AverageMAPE.py` to get the average MAPE of KNN, NS-KNN, NDW-KNN interpolation data. The results are saved in the AverageResult folder.
 
 
