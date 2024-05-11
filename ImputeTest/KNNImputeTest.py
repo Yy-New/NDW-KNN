@@ -4,7 +4,7 @@ from ImputeTest.KNNImputation import knn_imputation, ns_knn_imputation
 from utils import get_csv_data, is_folder_exists, merge_heading
 
 MM_path = "../MMData"
-distance_list = ["ManhattanDistance", "EuclideanDistance", "ChebyshevDistance"]
+distance_list = ["ManhattanDistance", "EuclideanDistance", "Third-order Minkowski Distance"]
 file_list = os.listdir(MM_path)
 
 for dist in range(3):
