@@ -1,6 +1,6 @@
 # NDW-KNN
 
-[![NDW-KNN](https://zenodo.org/badge/780319246.svg "NDW-KNN")](https://github.com/Yy-New/NDW-KNN)
+[![NDW-KNN](https://zenodo.org/badge/780319246.svg "NDW-KNN")](https://zenodo.org/doi/10.5281/zenodo.11363037)
 ### Step 1:
 Run `python LogData.py` can logarithmically transform the data in the PublicData folder and obtain a LogPublicData folder. The data file name corresponds to the data file name of the PublicData folder.
 
