@@ -1,5 +1,4 @@
 # NDW-KNN
-[![Uploading image.png…]()](https://zenodo.org/badge/DOI/10.5281/zenodo.11363038.svg)
 ### Step 1:
 Run `python LogData.py` can logarithmically transform the data in the PublicData folder and obtain a LogPublicData folder. The data file name corresponds to the data file name of the PublicData folder.
 
